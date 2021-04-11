@@ -1,4 +1,4 @@
-package com.loafer.springcloud.entity;
+package com.loafer.springcloud.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

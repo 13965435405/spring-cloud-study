@@ -1,6 +1,6 @@
 package com.loafer.springcloud.controller;
 
-import com.loafer.springcloud.entity.CommonResult;
+import com.loafer.springcloud.common.CommonResult;
 import com.loafer.springcloud.entity.Payment;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
