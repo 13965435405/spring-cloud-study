@@ -1,7 +1,5 @@
 com\loafer\springcloud\dao\PaymentDao.class
 com\loafer\springcloud\controller\PaymentController.class
-com\loafer\springcloud\entity\CommonResult.class
 com\loafer\springcloud\service\impl\PaymentServiceImpl.class
-com\loafer\springcloud\entity\Payment.class
 com\loafer\springcloud\service\PaymentService.class
 com\loafer\springcloud\PaymentMain8001.class
