@@ -27,4 +27,12 @@ mybatis:
   mapperLocations: classpath:mapper/*.xml #mybatis扫描的xml文件路径
   type-aliases-package: com.loafer.springcloud.entity #mybatis扫描的xml文件所对应的实体类
 
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:
+      #defaultZone: http://localhost:7001/eureka  #单机版
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka; #集群版
+
 
